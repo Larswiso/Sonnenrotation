@@ -6,4 +6,4 @@ The sun rotates around its own axis. Since it is a ball of gas, it rotates
 not uniform, but much faster at the equator than at the
 Poland. This is called differential sun rotation.
 # Setup
-- Open cmd in fishington.io-bot folder and type pip install -r requirements.txt
+- Open cmd in Sun-rotation folder and type **pip install -r requirements.txt**
