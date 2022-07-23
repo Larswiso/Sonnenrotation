@@ -22,4 +22,4 @@ Poland. This is called differential sun rotation.
 8. the acquired data will be saved in an Excel spreadsheet.
 9. the collected data is also saved in a text document. This is important for the chart.
 
-How it should look: (https://www.youtube.com/watch?v=oG605IywgIw&t=51s&ab_channel=sraL)
+How it should look: (https://www.youtube.com/watch?v=oG605IywgIw&ab_channel=sraL)
