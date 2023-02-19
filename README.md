@@ -1,25 +1,27 @@
-# Sun-rotation
-Calculate the differential rotation of the sun using two images and a few mouse clicks.
+# Sonnenrotation
+Berechnen Sie die differentielle Drehung der Sonne mit zwei Bildern und ein paar Mausklicks.
 
-## Differential sun rotation
-The sun rotates around its own axis. Since it is a ball of gas, it rotates
-not uniform, but much faster at the equator than at the
-Poland. This is called differential sun rotation.
-## Setup
-1. Open cmd in Sun-rotation folder and type **pip install -r requirements.txt**
-2. Since this program is ONLY tailored for the images from SDO, the images must also be downloaded from there. [To SDO](https://sdo.gsfc.nasa.gov/data/aiahmi/)
-3. Save the images in the folder **Images**.
-4. Enter the file path of the related images in the first two variables. (1st time and 2nd time)
-## How it use
-1. run the program 
-- e.g. with cmd: Open cmd in Sun-rotation folder and type **python sun_rotation.py**
-2. the first window will open: Select a sunspot and close the window.
-3. the second window will open: Click on the left edge of the sun and at the height of the yellow line. Then close the window.
-4. The last window will open: Select the same but rotated sunspot from the first window and close window.
-5. in the terminal: Enter the time of the first image **[YEAR MONTH DAY HOUR MINUTE SECOND]**.
-6. in the terminal: Enter the time of the second image **[YEAR MONTH DAY HOUR MINUTE SECOND]**.
-7. sun rotation is displayed in the terminal.
-8. the acquired data will be saved in an Excel spreadsheet.
-9. the collected data is also saved in a text document. This is important for the chart.
+## Differentielle Sonnenrotation
+Die Sonne dreht sich um ihre eigene Achse. Da sie ein Gasball ist, dreht sie sich
+nicht gleichmäßig, sondern am Äquator viel schneller als an den
+Polen. Dies wird als differentielle Sonnenrotation bezeichnet.
+## Installation
+Öffnen Sie cmd im Ordner Sonnenrotation und geben Sie **pip install -r requirements.txt** ein.
 
-How it should look: (https://www.youtube.com/watch?v=oG605IywgIw&ab_channel=sraL)
+## Vorbereitung
+1. Da dieses Programm NUR für die Bilder von SDO zugeschnitten ist, müssen die Bilder auch von dort heruntergeladen werden. [Zu SDO](https://sdo.gsfc.nasa.gov/data/aiahmi/)
+2. Speichern Sie die Bilder im Ordner **data**.
+3. **Wichtig** Der Name der Bilder sollte nicht verändert werden. Richtig: 20130525_010655_1024_HMII.jpg
+3. Geben Sie den Dateipfad der entsprechenden 2 Bilder, die Sie analysieren wollen, in die ersten beiden Variablen ein. (IMAGE_1, IMAGE_2)
+4. **Wichtig** Ersetzen nur den dick makierten Teil des Dateipfads: ".\Sonnenrotation\data\ **20130525_010655_1024_HMII.jpg**"
+4. Speichern Sie Python-Datei.
+
+## Ausführung
+1. Starten Sie das Programm 
+- z.B. mit CMD: Öffnen Sie CMD im Ordner Sonnenrotation und geben Sie **python code/main.py** ein
+2. Das erste Fenster wird geöffnet: Wählen Sie einen Sonnenfleck aus.
+3. Das zweite Fenster wird geöffnet: Wählen Sie den gleichen, aber rotierten Sonnenfleck aus dem ersten Fenster.
+4. Die Sonnenrotation wird auf dem Terminal angezeigt.
+5. Die erfassten Daten werden in einem Excel-Datei im Ordner **output** gespeichert.
+6. Abschließend wird die Sonnenrotaion an den Breitengrad in einen Diagramm veranschaulicht.
+7. Das Diagramm wird im Ordner **output** gespeichert.
