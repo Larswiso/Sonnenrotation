@@ -6,7 +6,9 @@ Die Sonne dreht sich um ihre eigene Achse. Da sie ein Gasball ist, dreht sie sic
 nicht gleichmäßig, sondern am Äquator viel schneller als an den
 Polen. Dies wird als differentielle Sonnenrotation bezeichnet.
 ## Installation
-Öffnen Sie cmd im Ordner Sonnenrotation und geben Sie **pip install -r requirements.txt** ein.
+1. Downloaden Sie den Repository
+2. Ändern Sie den Namen vom Hauptordner "Sonnenrotation-main" in "Sonnenrotation" um
+3. Öffnen Sie cmd im Ordner Sonnenrotation und geben Sie **pip install -r requirements.txt** ein.
 
 ## Vorbereitung
 1. Da dieses Programm NUR für die Bilder von SDO zugeschnitten ist, müssen die Bilder auch von dort heruntergeladen werden. [Zu SDO](https://sdo.gsfc.nasa.gov/data/aiahmi/)
